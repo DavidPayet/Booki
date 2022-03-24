@@ -1,0 +1,300 @@
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0;
+  }
+
+  /*********************** HEADER ***********************/
+  nav {
+    flex-direction: column;
+    margin-bottom: 150px;
+  }
+
+  .logo {
+    justify-content: center;
+    width: 180px;
+    margin: 0 0 10px 50px;
+  }
+
+  .menu-links {
+    width: 100%;
+  }
+
+  .link {
+    width: 100%;
+    font-size: 18px;
+    border-bottom: 3px solid #F2F2F2;
+  }
+
+  nav a.link::before {
+    display: none;
+  }
+
+  nav a.link::after {
+    content: '';
+    display: block;
+    margin: 0 0 60px;
+  }
+
+  nav a.link:hover {
+    border-top: 0;
+    margin-top: 0;
+    border-bottom: 3px solid #0065FC;
+  }
+
+  h1 {
+    font-size: 29px;
+    padding-left: 15px;
+  }
+
+  p {
+    font-size: 21px;
+    padding-left: 15px;
+  }
+
+  .search-bar {
+    justify-content: center;
+    width: 100%;
+    margin: 30px 0;
+    padding: 0 20px;
+  }
+
+  .search-bar>* {
+    font-size: 21px;
+    line-height: 49px;
+  }
+
+  input {
+    padding-right: 0;
+    margin-right: -10px;
+  }
+
+  label {
+    padding: 0 17px;
+    border-radius: 15px 0 0 15px;
+  }
+
+  .search-bar button.desktop-btn {
+    display: none;
+  }
+
+  .search-bar button.mobile-btn {
+    visibility: visible;
+    background: #0065FC;
+    border: 0;
+    color: #fff;
+    padding: 0 15px;
+    cursor: pointer;
+    transition: all .2s;
+    border-radius: 15px;
+  }
+
+  .search-bar button.mobile-btn:hover {
+    background: #3988ff;
+  }
+
+  .filters {
+    font-size: 21px;
+    margin: 0;
+  }
+
+  .filters ul li:nth-child(1) {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    margin-right: 0;
+    padding-left: 25px;
+  }
+
+  .filters ul li:not(:nth-child(1)) {
+    margin: 0 0 6px 20px;
+    justify-content: flex-start;
+  }
+
+  .filters ul li span {
+    padding: 9px 20px 10px 30px;
+    margin: 5px 0 5px -17px;
+  }
+
+  .filters ul li svg {
+    width: 20px;
+    height: 20px;
+    padding: 14px;
+  }
+
+  .info {
+    font-size: 21px;
+    margin: 20px 0;
+  }
+
+  .info svg {
+    border: 2px solid #F2F2F2;
+    padding: 4px 5px;
+    width: 12px;
+    height: 12px;
+    margin-left: 10px;
+    margin-bottom: 23px;
+  }
+
+  .flex-container {
+    flex-direction: column-reverse;
+    width: 100vw;
+  }
+
+  /*********************** MOST POPULAR SECTION ***********************/
+  #most-popular {
+    border-radius: 0;
+    padding: 30px 20px 15px;
+  }
+
+  h2 {
+    font-size: 24px;
+    padding: 0 0 30px 0;
+  }
+
+  .card-container.best {
+    display: flex;
+  }
+
+  .card-link {
+    width: 100%;
+  }
+
+  .card.best {
+    width: 100%;
+    height: 130px;
+  }
+
+  .card-body.best {
+    max-width: 250px;
+    margin: 0;
+  }
+
+  .card-img.best {
+    width: 28%;
+  }
+
+  .card-title.best {
+    font-size: 21px;
+  }
+
+  .card-description.best {
+    font-size: 18px;
+  }
+
+  .card-note.best {
+    top: 100px;
+    font-size: 14px;
+  }
+
+  /*********************** LODGING SECTION ***********************/
+  #lodging {
+    border-radius: 0;
+    padding: 10px 20px 0;
+    background: #fff;
+    margin: 0;
+  }
+
+  .card {
+    width: 100%;
+    height: 240px;
+    margin: 0 0 15px;
+    padding: 4px 4px 0;
+  }
+
+  .card-img {
+    height: 60%;
+  }
+
+  .card-title {
+    font-size: 21px;
+    padding: 3px 0 3px 10px;
+  }
+
+  .card-description {
+    font-size: 19px;
+    padding: 3px 0 3px 10px;
+  }
+
+  .card-note {
+    font-size: 14px;
+    padding: 7px 0 3px 10px;
+  }
+
+  p.show-more {
+    font-size: 21px;
+    padding: 20px 0;
+  }
+
+  /*********************** ACTIVITIES SECTION ***********************/
+  #activities {
+    padding: 10px 20px;
+  }
+
+  #activities h2 {
+    padding-bottom: 10px;
+  }
+
+  .card-container.activities {
+    width: 100%;
+  }
+
+  .card-container.activities>* {
+    width: 100%;
+    margin: 0;
+    padding: 4px 4px 0;
+  }
+
+  .first-column,
+  .third-column {
+    max-height: 240px;
+  }
+
+  .second-column,
+  .fourth-column {
+    min-height: 480px;
+  }
+
+  .card.activities {
+    width: 100%;
+  }
+
+  .card.activities.c1,
+  .card.activities.c4 {
+    height: 100%;
+  }
+
+  .card.activities.c2,
+  .card.activities.c3,
+  .card.activities.c5,
+  .card.activities.c6 {
+    height: 50%;
+  }
+
+  .card.activities>.card-img.activities {
+    height: 160px;
+  }
+
+  .card-title.activities {
+    font-size: 21px;
+    padding: 10px 0 0 10px;
+  }
+
+  /*********************** FOOTER ***********************/
+  footer {
+    font-size: 21px;
+    padding: 0 0 30px 35px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  footer ul,
+  footer ul:nth-child(1) {
+    margin: 0;
+    padding-top: 40px;
+  }
+
+}

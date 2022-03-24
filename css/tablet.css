@@ -1,0 +1,56 @@
+@media screen and (max-width: 992px) {
+  .flex-container {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  #lodging {
+    width: 100%;
+  }
+
+  .card {
+    height: 180px;
+  }
+
+  .card-title {
+    font-size: 14px;
+  }
+
+  .card-description {
+    font-size: 12px;
+  }
+
+  #most-popular {
+    width: 100%;
+  }
+
+  .card-container.best {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card.best {
+    width: 400px;
+  }
+
+  .c2 .card-img.activities {
+    height: 78%;
+  }
+
+  .card-container.activities>* {
+    height: 350px;
+  }
+
+  .card-title.activities {
+    padding-top: 10px;
+    font-size: calc(6px + .5vw);
+  }
+
+  footer {
+    font-size: 14px;
+  }
+
+  .footer-container {
+    justify-content: center;
+  }
+}
