@@ -5,6 +5,10 @@
   - Projet de formation
   - En tant que stagiaire développeur web, ma mission est d'intégrer les maquettes en HTML et CSS pour "Booki", une entreprise qui propose un outil de planification de vacances.
 
+
+  **[Voir le projet en ligne](https://davidpayet.github.io/Booki/)**
+  
+
 ## Contraites spécifiques
 
   - Les liens de la barre de navigation doivent mener vers leurs sections respectives
